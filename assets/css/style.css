@@ -1,0 +1,307 @@
+body{
+	width:960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background:#ffffff;
+}
+
+#name{
+	color:#ffffff;
+	background-color: #4aaaa5;
+	float: left;
+	left: 0px;
+	padding: 20px;
+	font-size: 20;
+	margin: 0% 0% 0% 10%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+#bannerLinks{
+	float: right;
+	right: 0px;
+	
+	margin: 0% 10% 0% 0%;
+	padding: 20px;
+	border-width: 2px;
+}
+
+#bannerlinks a{
+	color: #777777;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+#mainSection{
+	position: relative;
+	height: 100%;
+	
+}
+
+
+a:hover{
+	color: #4aaaa5;
+}
+
+a:active{
+	text-decoration: underline;
+}
+
+#line1{
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	top: -2px;
+	border-color: #cccccc; 
+}
+
+.line2{
+	width: 95%;
+	border-color: #dddddd;
+}
+
+.line3{
+	width: 85%;
+	border-color: #dddddd;
+}
+
+#background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	top: -3px;
+	left: 0px;
+}
+
+#profImg{
+	width: 190px;
+	height: 190px;
+	margin-left: 2.5%;
+	float: left;
+	margin-top: 2.5%;
+}
+
+header{
+	width: 960px;
+}
+
+h2{
+	top: 20px;
+	position: relative;
+	color: #4aaaa5;
+	padding: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3{
+	padding: 40px 0px 0px 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.p1 {
+	padding-left:20px;
+	float: left;
+	margin-top: 2.5%;
+	width: 60%;
+	line-height:1.5;
+}
+
+.p2{
+	padding-left:2.5%;
+	float: left;
+	margin-top: 2.5%;
+	width: 90%;
+	margin-bottom:5%;
+	line-height:1.5;
+}
+
+.whiteBox{
+	background:#ffffff;
+	border-width: 1;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.sec1{
+	position: absolute;
+	height: 475px;
+	margin-left: 20px;
+	margin-top: 25px;
+	width:620px;
+}
+
+.sec2{
+	position: absolute;
+	height: 180px;
+	right: 20px;
+	margin-top: 25px;
+	width: 240px;
+}
+
+.sec3{
+	position: absolute;
+	height: 700px;
+	margin-left: 20px;
+	margin-top: 25px;
+	width:620px;
+}
+
+#iconHolder{
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.footTop{
+	background: #4aaaa5;
+	position: fixed;
+	width: 960px;
+	height:20px;
+	bottom: 20px;
+}
+
+.footer{
+	text-align:center;
+	color: #ffffff;
+	background: #666666;
+	position: fixed;
+	bottom: 0px;
+	width: 960px;
+	height: 20px;
+	padding-top: 10px;
+}
+
+#form1{
+	margin-left:15px;
+	margin-top: 25px;
+}
+
+.inp{
+	width: 95%;
+}
+
+#butt{
+	background: #4aaaa5; 
+	border: 0;
+	color: #ffffff;
+	padding: 15px 30px 15px 30px;
+	font-weight: bold;
+}
+
+.portHold{
+	float:left;
+	margin: 20px 30px 20px 60px;
+}
+
+.clear{
+	clear:both;
+}
+
+.proj{
+	width:180px;
+	height: 150px;
+}
+
+.projName{
+	position:relative;
+	bottom:25px;
+	color: #ffffff;
+	background: #4aaaa5; 
+	text-align: center;
+	font-weight:bold;
+}
+
+@media only screen and (max-width: 768px){
+	#name{
+		background-color: blue;
+	}
+	
+	.sec1{
+		position: relative;
+		width: 730px;
+	}
+
+	.sec2{
+		position: relative;
+		bottom: 0px;
+		left: 0px;
+		width: 730px;
+		margin: 20px;
+		margin-bottom: 40px;
+	}
+
+	.sec3{
+		position: relative;
+		width: 730px;
+	}
+
+	#background{
+		height: 170%;
+		top: -27px;
+	}
+
+	#mainSection{
+		width: 768px;
+	}
+
+	header{
+		width: 760px;
+	}
+
+}
+
+@media only screen and (max-width: 640px){
+	
+	#mainSection{
+		width: 640px;
+	}
+
+	.sec1{
+		width: 600px;
+	}
+
+	.sec2{
+		width: 600px;
+	}
+
+	.sec3{
+		width: 600px;
+	}
+
+	#name{
+		background-color: orange;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	header{
+		width:640px;
+	}
+	
+	#bannerLinks{
+	width: 100%;
+	margin: 0 auto;
+	}
+
+	#bannerlinks a{
+		float: left;
+		width: 33%;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0px;
+	}
+
+}
